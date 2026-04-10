@@ -62,15 +62,15 @@ MAGICK_CMD=(
     "magick" "$TEMPLATE"
     "-font" "$FONT"
     # Bottom Left: Device Info
-    "-fill" "#9E9E9E" "-pointsize" "24" "-annotate" "+50+1230" "($CODENAME)"
+    "-fill" "#9E9E9E" "-pointsize" "28" "-annotate" "+50+1230" "($CODENAME)"
     "-fill" "#FFFFFF" "-pointsize" "68" "-annotate" "+50+1295" "$DEVICE_NAME"
     "-fill" "#888888" "-pointsize" "24" "-annotate" "+50+1335" "$FOOTER_TEXT"
     # Bottom Right: Maintainer
     "-fill" "#FFFFFF" "-pointsize" "46" "-annotate" "+1510+1290" "$MAINTAINER"
     # Inside Card: Date
-    "-fill" "#E0E0E0" "-pointsize" "24" "-annotate" "+1110+460" "$DATE_DISPLAY"
+    "-fill" "#E0E0E0" "-pointsize" "28" "-annotate" "+1110+460" "$DATE_DISPLAY"
     # Prep for Card Bullets
-    "-fill" "#FFFFFF" "-pointsize" "20"
+    "-fill" "#FFFFFF" "-pointsize" "28"
 )
 
 # Loop through the bullets array in JSON and dynamically calculate Y-coordinates
@@ -114,7 +114,7 @@ Date: ${DATE_ISO}
 🫂 [Support Group](${SUPPORT})
 🎁 [PayPal](${PAYPAL})
 
-✨ **Initial Public Beta Release** ✨
+✨ **Initial STABLE Release** ✨
 
 **Security & Fixes**
 > - ${PATCH} Security Patch 

@@ -7,10 +7,10 @@
   "release": {
     "version": "16.2",
     "qpr": "QPR2",
-    "type": "Stable Public Beta OFFICIAL",
-    "date_iso": "2026-03-16",
-    "date_display": "March 16,         2026",
-    "patch_month": "March"
+    "type": "Stable OFFICIAL",
+    "date_iso": "2026-04-07",
+    "date_display": "April 07,     2026",
+    "patch_month": "April"
   },
   "links": {
     "auto_installer": "https://derpfest.org/installer/nabu",
@@ -21,11 +21,12 @@
   "image": {
     "footer": "Optional flashable KernelSU-Next + SuSFS root and unroot zips available",
     "bullets": [
-      "Initial 16.2 (QPR2) Public Beta release!",
-      "March Security Patch (QPR2)",
-      "Dirty flash and local update works!",
-      "New Desktop Mode and pill hideable",
-      "Please read release notes very carefully"
+      "April Security Patch (QPR2)",
+      "GApps debloated",
+      "ViPER4Android included",
+      "Dirty | local update works!",
+      "Dynamic Bar (~Dynamic Island)",
+      "Please read release notes"
     ]
   },
   "changelog": {
