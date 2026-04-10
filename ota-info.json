@@ -36,8 +36,8 @@
       "New Desktop Mode and pill hideable in settings/display"
     ],
     "regressions": [
-      "New Desktop Mode will spawn some desktops without you creating them, occasionally. Just ignore and \"clear all\" in recents every now and then.",
-      "Custom statusbar icon sets as of now are included, but not functional."
+      "Something worth mentioning",
+      "There are rarely any regressions"
     ]
   }
 }
